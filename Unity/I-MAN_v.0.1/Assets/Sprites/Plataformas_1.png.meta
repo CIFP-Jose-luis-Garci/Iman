@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: c75d7686c98983d488737ccb1631ae75
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4848626268892094816
+    second: Caja azul
+  - first:
+      213: -4336480644516566379
+    second: Caja roja
+  - first:
+      213: -9105376456467766110
+    second: Caja normal
+  - first:
+      213: 5805056477335976771
+    second: Caja iconos
+  - first:
+      213: -872455877283416792
+    second: Magnetico azul
+  - first:
+      213: -177634559812533616
+    second: Platform roja
+  - first:
+      213: -4407927772999615756
+    second: Platform azul
+  - first:
+      213: -3123596317680762795
+    second: platform normal
+  - first:
+      213: -5578831806902723460
+    second: Magnetico rojo
+  - first:
+      213: -6328102654409266569
+    second: Platform roja L
+  - first:
+      213: -2985851064320748952
+    second: Platform roja Mid
+  - first:
+      213: -2578257828246406737
+    second: Platform roja R
+  - first:
+      213: 366051853694119015
+    second: Platform normal L
+  - first:
+      213: 863718619172987914
+    second: Platform normal Mid
+  - first:
+      213: -6490134886824544892
+    second: platform normal R
+  - first:
+      213: -1254414883266690306
+    second: Platform azul L
+  - first:
+      213: -1700057042399021915
+    second: Platform azul Mid
+  - first:
+      213: 7501563631064163700
+    second: Platform azul R
+  - first:
+      213: 214013453566643525
+    second: Suelo L
+  - first:
+      213: 8468435484995957719
+    second: Suelo Mid
+  - first:
+      213: 4690205075792476559
+    second: Suelo R
+  - first:
+      213: 4767842352551865637
+    second: Techo
+  - first:
+      213: 2557112185120269123
+    second: Pared Grande
+  - first:
+      213: -7743010347379596924
+    second: Pared Pequena
+  - first:
+      213: 500478226680634309
+    second: Puerta Grande
+  - first:
+      213: 6133218885942356307
+    second: Puerta Pequena
+  - first:
+      213: -5201003372038348223
+    second: Escalera
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Caja azul
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1900
+        width: 77
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061e0f507e7c94340800000000000000
+      internalID: 4848626268892094816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caja roja
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1900
+        width: 77
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aab3854d9b1d3c0800000000000000
+      internalID: -4336480644516566379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caja normal
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1900
+        width: 77
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4a80eea5433a180800000000000000
+      internalID: -9105376456467766110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Caja iconos
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1900
+        width: 77
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bf0b01c14bf8050800000000000000
+      internalID: 5805056477335976771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnetico azul
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1901
+        width: 279
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825f158800a64e3f0800000000000000
+      internalID: -872455877283416792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform roja
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1866
+        width: 222
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0928a8a1f4ae88df0800000000000000
+      internalID: -177634559812533616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform azul
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 1869
+        width: 218
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa77ce6b05e3d2c0800000000000000
+      internalID: -4407927772999615756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform normal
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1922
+        width: 226
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5508be6d2b1c6a4d0800000000000000
+      internalID: -3123596317680762795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnetico rojo
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1761
+        width: 279
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c99ef87020492b0800000000000000
+      internalID: -5578831806902723460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform roja L
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1722
+        width: 84
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77aaabdd9201e28a0800000000000000
+      internalID: -6328102654409266569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform roja Mid
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1722
+        width: 133
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86290f6d6402096d0800000000000000
+      internalID: -2985851064320748952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform roja R
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1722
+        width: 84
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9b0085a20383cd0800000000000000
+      internalID: -2578257828246406737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform normal L
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1724
+        width: 118
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cafc4b83a741500800000000000000
+      internalID: 366051853694119015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform normal Mid
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1724
+        width: 124
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0462b9028b8cfb00800000000000000
+      internalID: 863718619172987914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: platform normal R
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1724
+        width: 116
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485f376e4b86ee5a0800000000000000
+      internalID: -6490134886824544892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform azul L
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1722
+        width: 88
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef20de15f4c679ee0800000000000000
+      internalID: -1254414883266690306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform azul Mid
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1722
+        width: 106
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b7e1902f2868e0800000000000000
+      internalID: -1700057042399021915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform azul R
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1722
+        width: 89
+        height: 114
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475a191a068ea1860800000000000000
+      internalID: 7501563631064163700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suelo L
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 163
+        width: 229
+        height: 1470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d8ef42a1458f200800000000000000
+      internalID: 214013453566643525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suelo Mid
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 163
+        width: 301
+        height: 1469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d33f76b43de58570800000000000000
+      internalID: 8468435484995957719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Suelo R
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 163
+        width: 257
+        height: 1469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89385aaaa4f61140800000000000000
+      internalID: 4690205075792476559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Techo
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1499
+        width: 1067
+        height: 150
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52daae8cb57ca2240800000000000000
+      internalID: 4767842352551865637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pared Grande
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 145
+        width: 210
+        height: 1284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343aae4fbffac7320800000000000000
+      internalID: 2557112185120269123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pared Pequena
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 145
+        width: 135
+        height: 1284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481e3400d1d4b8490800000000000000
+      internalID: -7743010347379596924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta Grande
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1010
+        width: 174
+        height: 414
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbdd17ab4e02f600800000000000000
+      internalID: 500478226680634309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta Pequena
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1010
+        width: 116
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359af42e4129d1550800000000000000
+      internalID: 6133218885942356307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Escalera
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 350
+        width: 130
+        height: 475
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142ab0e3df252d7b0800000000000000
+      internalID: -5201003372038348223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 111572b43d10c8e42bd0b3a156e36139
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
