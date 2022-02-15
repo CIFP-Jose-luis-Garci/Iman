@@ -259,10 +259,10 @@ TextureImporter:
       name: Magnetico azul
       rect:
         serializedVersion: 2
-        x: 905
-        y: 1901
-        width: 279
-        height: 123
+        x: 914
+        y: 1908
+        width: 264
+        height: 107
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,9 +281,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1255
-        y: 1866
+        y: 1875
         width: 222
-        height: 124
+        height: 115
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,9 +302,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1539
-        y: 1869
+        y: 1874
         width: 218
-        height: 120
+        height: 115
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: Magnetico rojo
       rect:
         serializedVersion: 2
-        x: 905
-        y: 1761
-        width: 279
-        height: 120
+        x: 911
+        y: 1766
+        width: 267
+        height: 112
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
