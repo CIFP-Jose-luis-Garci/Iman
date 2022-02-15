@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 23676012}
   - component: {fileID: 23676013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo Mid (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 71686848}
   - component: {fileID: 71686849}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo Mid (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 276937528}
   - component: {fileID: 276937529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,7 +462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 291263829}
   - component: {fileID: 291263830}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo Mid (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -544,7 +544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292083761}
   - component: {fileID: 292083762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -626,7 +626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292388154}
   - component: {fileID: 292388155}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 324148783}
   - component: {fileID: 324148784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -789,7 +789,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 396758411}
-  m_Layer: 0
+  - component: {fileID: 396758414}
+  - component: {fileID: 396758413}
+  - component: {fileID: 396758412}
+  m_Layer: 6
   m_Name: Obstaculo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -816,6 +819,84 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &396758412
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396758410}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 4.1039414, y: -1.3337809}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5276499, y: 1.4983356}
+  m_EdgeRadius: 0
+--- !u!61 &396758413
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396758410}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 3.3564377, y: -2.8874156}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.0226574, y: 1.5569634}
+  m_EdgeRadius: 0
+--- !u!61 &396758414
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396758410}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 2.5356493, y: -4.4117365}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.605606, y: 1.556963}
+  m_EdgeRadius: 0
 --- !u!1 &448856266
 GameObject:
   m_ObjectHideFlags: 0
@@ -826,7 +907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 448856267}
   - component: {fileID: 448856268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 457810675}
   - component: {fileID: 457810676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,7 +1070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 510769675}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cubocaja (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1023,7 +1104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 521982001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cubocaja (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1058,7 +1139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 542660451}
   - component: {fileID: 542660452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo Mid (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1140,7 +1221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 644989081}
   - component: {fileID: 644989082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,6 +1293,88 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &754348850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 754348851}
+  - component: {fileID: 754348852}
+  m_Layer: 6
+  m_Name: Suelo Mid (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754348851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754348850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.91, y: -17.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2023121882}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &754348852
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754348850}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 8468435484995957719, guid: c75d7686c98983d488737ccb1631ae75, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.01, y: 14.69}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &761799759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,7 +1385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 761799760}
   - component: {fileID: 761799761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1304,7 +1467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783473367}
   - component: {fileID: 783473368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1376,6 +1539,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &813928688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813928689}
+  m_Layer: 3
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813928689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813928688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.507, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1326359574}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880577890
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 880577891}
   - component: {fileID: 880577892}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1549,7 +1742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1099742686}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cubocaja (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1584,7 +1777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1123816779}
   - component: {fileID: 1123816780}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1666,7 +1859,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131291278}
   - component: {fileID: 1131291279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1829,7 +2022,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1149948980}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cubocaja (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1863,7 +2056,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1192684795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cubocaja (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1898,7 +2091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1239459359}
   - component: {fileID: 1239459360}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1980,10 +2173,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1326359574}
   - component: {fileID: 1326359573}
-  - component: {fileID: 1326359575}
-  m_Layer: 0
+  - component: {fileID: 1326359576}
+  - component: {fileID: 1326359578}
+  - component: {fileID: 1326359577}
+  - component: {fileID: 1326359579}
+  m_Layer: 3
   m_Name: Personaje
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2049,11 +2245,12 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.26, y: -1.95, z: 0}
   m_LocalScale: {x: 0.7125, y: 1.5, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 813928689}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1326359575
+--- !u!114 &1326359576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2062,12 +2259,171 @@ MonoBehaviour:
   m_GameObject: {fileID: 1326359572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ecedd135f6e1f141a122c5863304877, type: 3}
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 0
-  jumpForce: 0
-  rollSpeed: 0
+  m_Actions: {fileID: -944628639613478452, guid: 8f36b9a7877155d469e301a087262b45, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1326359578}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 1a2fb728-c5d0-4bbb-bade-2003e910c045
+    m_ActionName: Player/Move[/XInputControllerWindows/leftStick,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 60d21b16-f810-46b2-8f26-14f028fa0a03
+    m_ActionName: Player/Look[/XInputControllerWindows/rightStick,/Mouse/delta,/Pen/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 0cf0acc6-a395-4101-a5db-e31f1b7ed57d
+    m_ActionName: Player/Fire[/XInputControllerWindows/rightTrigger,/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1326359578}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: Jump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 77e8937a-c7c6-46ea-bee2-46b49c11c542
+    m_ActionName: Player/Jump[/XInputControllerWindows/buttonSouth,/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 12a27641-12e9-4fce-9db0-4573e6f2d38a
+    m_ActionName: UI/Navigate[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/rightStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/rightStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/rightStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/rightStick/right,/XInputControllerWindows/dpad,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f7817412-5cd8-4047-90b7-7b18676e8e9e
+    m_ActionName: UI/Submit[/Keyboard/enter,/XInputControllerWindows/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b2970a0a-cd5a-4c2f-b187-92e1ea76f4d3
+    m_ActionName: UI/Cancel[/Keyboard/escape,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9f68c56b-7f22-453b-aa3d-c54d6400835c
+    m_ActionName: UI/Point[/Mouse/position,/Pen/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 92e4f196-3a6d-4e1f-a370-a66ae9a94ae5
+    m_ActionName: UI/Click[/Mouse/leftButton,/Pen/tip]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a4475bc5-aaa1-469d-8091-e6cc5c3fdd1d
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 997f51e1-4108-48ec-981e-017997d0491e
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: d35c2caf-6289-437d-98d1-7c27add02f81
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 003b9025-d2f9-4fa2-b7e2-3c74fe0f75e2
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a6a82213-e51c-42fa-8fbc-bfa0e7f577ba
+    m_ActionName: UI/TrackedDeviceOrientation
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!50 &1326359577
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326359572}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1326359578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326359572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c6d66c8e6a52742813422914be1ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1326359577}
+  groundCheck: {fileID: 813928689}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!61 &1326359579
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326359572}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1386982537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,7 +2527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418683883}
   - component: {fileID: 1418683884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2253,7 +2609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1470499691}
   - component: {fileID: 1470499692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2335,7 +2691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486113305}
   - component: {fileID: 1486113306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2417,6 +2773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1499866991}
   - component: {fileID: 1499866990}
+  - component: {fileID: 1499866992}
   m_Layer: 0
   m_Name: Trigger_puerta
   m_TagString: Untagged
@@ -2464,6 +2821,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499866992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499866989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730ecdd77a414e04c9b833eddd591068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animatorpuerta: {fileID: 1516771365}
 --- !u!1 &1516771362
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,7 +2946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1573392855}
   - component: {fileID: 1573392856}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2658,7 +3028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1610287590}
   - component: {fileID: 1610287591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2740,7 +3110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1833623245}
   - component: {fileID: 1833623246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2822,7 +3192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1851088489}
   - component: {fileID: 1851088490}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2904,7 +3274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869171985}
   - component: {fileID: 1869171986}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2986,7 +3356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1914533318}
   - component: {fileID: 1914533319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo Mid (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3068,7 +3438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1932874614}
   - component: {fileID: 1932874615}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo Mid (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3150,7 +3520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1944690369}
   - component: {fileID: 1944690368}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3231,7 +3601,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023121882}
-  m_Layer: 0
+  - component: {fileID: 2023121883}
+  m_Layer: 6
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3256,9 +3627,36 @@ Transform:
   - {fileID: 542660451}
   - {fileID: 71686848}
   - {fileID: 1932874614}
+  - {fileID: 754348851}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &2023121883
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023121881}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.4018068, y: -4.8136272}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 24.034159, y: 4.061201}
+  m_EdgeRadius: 0
 --- !u!1 &2046120530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3269,7 +3667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046120531}
   - component: {fileID: 2046120532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3351,7 +3749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131400461}
   - component: {fileID: 2131400462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3433,7 +3831,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2137003069}
   - component: {fileID: 2137003070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Caja iconos (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3514,7 +3912,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2142113047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cubocaja
   m_TagString: Untagged
   m_Icon: {fileID: 0}
