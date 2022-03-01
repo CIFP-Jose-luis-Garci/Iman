@@ -1015,7 +1015,6 @@ GameObject:
   m_Component:
   - component: {fileID: 354313099}
   - component: {fileID: 354313098}
-  - component: {fileID: 354313097}
   - component: {fileID: 354313096}
   m_Layer: 0
   m_Name: Trigger_puerta
@@ -1037,18 +1036,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animatorpuerta: {fileID: 255025612}
---- !u!114 &354313097
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 354313095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ae9db3ba0abf954ea56a5e6be3024fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &354313098
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4567,6 +4554,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 306405837387902276, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 306405837387902276, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2382500362532535152, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4618,6 +4613,14 @@ PrefabInstance:
     - target: {fileID: 7436612602190935931, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
       propertyPath: m_Name
       value: Personaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436612602190935931, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7436612602190935931, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}

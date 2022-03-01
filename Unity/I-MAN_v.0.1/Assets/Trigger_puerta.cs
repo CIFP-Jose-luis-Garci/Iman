@@ -19,7 +19,7 @@ public class Trigger_puerta : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Personaje")
+        if (collision.gameObject.name == "I-MAN sprite sheet 1.psd_0")
         {
             animatorpuerta.SetBool("Trigger", true);
 
