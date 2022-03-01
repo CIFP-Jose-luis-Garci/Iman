@@ -9,16 +9,17 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
-    private float horizontal;
+    public float horizontal;
     private float speed = 8f;
     private float jumpingPower = 8f;
     private bool isFacingRight = true;
+    public Animator animator;
 
     // Update is called once per frame
     void Update()
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
-
+        animator.SetFloat("Speed", Mathf.Abs(horizontal));
         if (!isFacingRight && horizontal > 0f)
         {
             Flip();
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
+        
     }
 
     public void Jump(InputAction.CallbackContext context)
@@ -58,6 +60,7 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = context.ReadValue<Vector2>().x;
 
+        
     }
 }
 
