@@ -466,11 +466,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &248581491 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2382500362532535152, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-  m_PrefabInstance: {fileID: 2353434834203527563}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &255025611
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,7 +1673,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 248581491}
+  m_Follow: {fileID: 1068843368}
   m_Lens:
     FieldOfView: 39
     OrthographicSize: 5
@@ -2506,6 +2501,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1068843368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6660141526660927170, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+  m_PrefabInstance: {fileID: 2353434834203527563}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1099742685
 GameObject:
   m_ObjectHideFlags: 0
