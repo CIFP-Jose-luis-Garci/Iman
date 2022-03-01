@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6660141526660927170}
   - component: {fileID: 8800139784575321103}
-  - component: {fileID: 6139770973175612827}
+  - component: {fileID: 4571103947411141722}
   m_Layer: 0
   m_Name: I-MAN sprite sheet 1.psd_0
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &6139770973175612827
+--- !u!95 &4571103947411141722
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
