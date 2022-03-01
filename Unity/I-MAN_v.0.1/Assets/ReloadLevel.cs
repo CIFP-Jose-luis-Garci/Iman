@@ -19,7 +19,7 @@ public class ReloadLevel : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Personaje")
+        if (collision.gameObject.name == "I-MAN sprite sheet 1.psd_0")
         {
 
             Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
