@@ -296,6 +296,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  horizontal: 2.24
   animator: {fileID: 7287918651134524164}
 --- !u!50 &3109578370792056547
 Rigidbody2D:

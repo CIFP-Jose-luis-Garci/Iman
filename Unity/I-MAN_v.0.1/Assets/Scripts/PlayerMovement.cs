@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
         if (!isFacingRight && horizontal > 0f)
         {
+            
             Flip();
         }
         else if (isFacingRight && horizontal <0f)
