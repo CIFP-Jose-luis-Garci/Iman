@@ -123,24 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &75854520 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 306405837387902276, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-  m_PrefabInstance: {fileID: 1959381542}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &75854527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75854520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e304275d8d14454a8aba464b83ac1ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 0}
 --- !u!1 &96225037
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 692259035}
   - component: {fileID: 692259034}
+  - component: {fileID: 692259036}
   m_Layer: 0
   m_Name: Techo
   m_TagString: Untagged
@@ -760,6 +743,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &692259036
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692259033}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.75}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 10.67, y: 1.5}
+    newSize: {x: 10.67, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 10.67, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!1 &692634445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,6 +1678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1317491939}
   - component: {fileID: 1317491938}
+  - component: {fileID: 1317491940}
   m_Layer: 0
   m_Name: Pared Pequena (1)
   m_TagString: Untagged
@@ -1741,6 +1751,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1317491940
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317491937}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 6.42}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.35, y: 12.84}
+    newSize: {x: 1.35, y: 12.84}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.35, y: 12.84}
+  m_EdgeRadius: 0
 --- !u!1 &1328461198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,7 +1789,7 @@ GameObject:
   - component: {fileID: 1328461201}
   - component: {fileID: 1328461200}
   - component: {fileID: 1328461199}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform azul
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Transform groundCheck;
     public LayerMask groundLayer;
+    public LayerMask ladderLayer;
 
     public float horizontal;
     public float vertical;
@@ -17,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
     private bool isGrounded;
     //para ladder...
-    
-   
+
+
     private bool isLadder;
     private bool isClimbing;
 
@@ -31,23 +32,23 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isGrounded", isGrounded);
         if (!isFacingRight && horizontal > 0f)
         {
-            
+
             Flip();
         }
-        else if (isFacingRight && horizontal <0f)
+        else if (isFacingRight && horizontal < 0f)
         {
             Flip();
         }
-        
+
     }
 
     public void Jump(InputAction.CallbackContext context)
     {
-        if (context.performed && isGrounded )
+        if (context.performed && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
-        if (context.canceled && rb.velocity.y >0)
+        if (context.canceled && rb.velocity.y > 0)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
         }
@@ -70,23 +71,44 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontal = context.ReadValue<Vector2>().x;
         vertical = context.ReadValue<Vector2>().y;
-        
+
+        if (isLadder && Mathf.Abs(vertical) > 0f)
+        {
+            isClimbing = true;
+        }
+
+
+    }
+
+    private void FixedUpdate()
+    {
+        if (isClimbing)
+        {
+            rb.gravityScale = 0f;
+            rb.velocity = new Vector2(rb.velocity.x, vertical * speed);
+        }
+        else
+        {
+            rb.gravityScale = 1.7f;
+        }
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ladder"))
         {
             isLadder = true;
+            animator.SetBool("isLadder", isLadder);
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Ladder"))
         {
             isLadder = false;
             isClimbing = false;
+            animator.SetBool("isLadder", isLadder);
         }
     }
-
 }
-
