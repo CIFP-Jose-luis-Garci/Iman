@@ -10,11 +10,17 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask groundLayer;
 
     public float horizontal;
+    public float vertical;
     private float speed = 8f;
     private float jumpingPower = 8f;
     private bool isFacingRight = true;
     public Animator animator;
     private bool isGrounded;
+    //para ladder...
+    
+   
+    private bool isLadder;
+    private bool isClimbing;
 
     // Update is called once per frame
     void Update()
@@ -63,8 +69,24 @@ public class PlayerMovement : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         horizontal = context.ReadValue<Vector2>().x;
-
+        vertical = context.ReadValue<Vector2>().y;
         
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            isLadder = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Ladder"))
+        {
+            isLadder = false;
+            isClimbing = false;
+        }
+    }
+
 }
 
