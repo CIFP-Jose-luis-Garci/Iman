@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 7a94112ef8cb20d408b85dd3e0d92b0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2586799733393725218
+    second: I-MAN sprite sheet 4_0
+  - first:
+      213: -8540915584496105694
+    second: I-MAN sprite sheet 4_1
+  - first:
+      213: -8079645587652365005
+    second: I-MAN sprite sheet 4_2
+  - first:
+      213: 4788932347951349378
+    second: I-MAN sprite sheet 4_3
+  - first:
+      213: -6788770759033591718
+    second: I-MAN sprite sheet 4_4
+  - first:
+      213: 3387396887169442651
+    second: I-MAN sprite sheet 4_5
+  - first:
+      213: -8324539130110766544
+    second: I-MAN sprite sheet 4_6
+  - first:
+      213: 291101727706394077
+    second: I-MAN sprite sheet 4_7
+  - first:
+      213: 179359934757222127
+    second: I-MAN sprite sheet 4_8
+  - first:
+      213: -5450394710938549609
+    second: I-MAN sprite sheet 4_9
+  - first:
+      213: 6577574750303142012
+    second: I-MAN sprite sheet 4_10
+  - first:
+      213: 8448698788972536471
+    second: I-MAN sprite sheet 4_11
+  - first:
+      213: 2900954608588192374
+    second: I-MAN sprite sheet 4_12
+  - first:
+      213: -4229280758076385290
+    second: I-MAN sprite sheet 4_13
+  - first:
+      213: -4495657446918277460
+    second: I-MAN sprite sheet 4_14
+  - first:
+      213: 7202582382982330444
+    second: I-MAN sprite sheet 4_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1645
+        width: 279
+        height: 338
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8edf11957d91cd0800000000000000
+      internalID: -2586799733393725218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1640
+        width: 260
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22703811782987980800000000000000
+      internalID: -8540915584496105694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_2
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1637
+        width: 267
+        height: 342
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335bde455255fdf80800000000000000
+      internalID: -8079645587652365005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_3
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 1641
+        width: 248
+        height: 341
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e740df894b57240800000000000000
+      internalID: 4788932347951349378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_4
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1639
+        width: 242
+        height: 340
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a586e3e86f079c1a0800000000000000
+      internalID: -6788770759033591718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1242
+        width: 216
+        height: 339
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53affc8583720f20800000000000000
+      internalID: 3387396887169442651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1260
+        width: 227
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03298e634cb497c80800000000000000
+      internalID: -8324539130110766544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_7
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1260
+        width: 227
+        height: 322
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd2171aa733a0400800000000000000
+      internalID: 291101727706394077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_8
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1267
+        width: 230
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6342e09e63d7200800000000000000
+      internalID: 179359934757222127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_9
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 1266
+        width: 230
+        height: 315
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79207d843ee4c54b0800000000000000
+      internalID: -5450394710938549609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_10
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 630
+        width: 54
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70c56bc26d384b50800000000000000
+      internalID: 6577574750303142012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_11
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 629
+        width: 54
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7922bf219cecf3570800000000000000
+      internalID: 8448698788972536471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_12
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 631
+        width: 58
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a7e6ab8d2424820800000000000000
+      internalID: 2900954608588192374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_13
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 630
+        width: 54
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f75677ee839e45c0800000000000000
+      internalID: -4229280758076385290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_14
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 633
+        width: 55
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6b89cfe573c91c0800000000000000
+      internalID: -4495657446918277460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: I-MAN sprite sheet 4_15
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 631
+        width: 58
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48f5233486b4f360800000000000000
+      internalID: 7202582382982330444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 90e24aa5c9a433b48ae36771781011b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
