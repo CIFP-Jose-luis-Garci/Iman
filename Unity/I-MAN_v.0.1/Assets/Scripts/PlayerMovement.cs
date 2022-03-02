@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
         animator.SetBool("isGrounded", isGrounded);
         if (!isFacingRight && horizontal > 0f)

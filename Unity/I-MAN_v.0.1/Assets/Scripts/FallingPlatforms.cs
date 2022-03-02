@@ -19,6 +19,10 @@ public class FallingPlatforms : MonoBehaviour
             Destroy(gameObject, 4f);
         }
     }
+    void DestroyPlatforms()
+    {
+
+    }
     void DropPlatform()
     {
         rb.isKinematic = false;
