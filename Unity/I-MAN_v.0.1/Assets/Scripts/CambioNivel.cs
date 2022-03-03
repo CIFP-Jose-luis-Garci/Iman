@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class CambioNivel : MonoBehaviour
 {
-    
+
+   
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +24,8 @@ public class CambioNivel : MonoBehaviour
     {
         if (collision.gameObject.name == "I-MAN sprite sheet 1.psd_0")
         {
-            print("He entrado");
-            SceneManager.LoadScene(+1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
+
