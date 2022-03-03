@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ladder
   - Teleporter
+  - PlataformaMovil
+  - Plataforma
   layers:
   - Default
   - TransparentFX

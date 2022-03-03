@@ -11,18 +11,16 @@ public class FallingPlatforms : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    public void DestroyPlatform()
     {
-        if (collision.gameObject.name.Equals("I-MAN sprite sheet 1.psd_0"))
-        {
-            Invoke("DropPlatform", 2f);
-            Destroy(gameObject, 4f);
-        }
-    }
-    void DestroyPlatforms()
-    {
+        print("Me han pisado, me caigo");
+        Invoke("DropPlatform", 2f);
+        Destroy(gameObject, 4f);
 
     }
+
+
     void DropPlatform()
     {
         rb.isKinematic = false;

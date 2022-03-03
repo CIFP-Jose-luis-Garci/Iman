@@ -23,10 +23,22 @@ public class PlayerMovement : MonoBehaviour
     private bool isLadder;
     private bool isClimbing;
 
+    FallingPlatforms fallingPlatforms;
+
     // Update is called once per frame
     void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        if(isGrounded)
+        {
+            Collider2D hits = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+            if(hits.gameObject.tag == "PlataformaMovil")
+            {
+                fallingPlatforms = hits.gameObject.GetComponent<FallingPlatforms>();
+                fallingPlatforms.SendMessage("DestroyPlatform");
+            }
+        }
+        
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
         
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
