@@ -5,6 +5,7 @@ using UnityEngine;
 public class Trigger_puerta : MonoBehaviour
 {
     [SerializeField] Animator animatorpuerta;
+    [SerializeField] AudioSource audiopuerta;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,7 @@ public class Trigger_puerta : MonoBehaviour
         if (collision.gameObject.name == "I-MAN sprite sheet 1.psd_0")
         {
             animatorpuerta.SetBool("Trigger", true);
-
+            audiopuerta.Play();
         }
     }
     /*private void OnTriggerExit2D(Collider2D collision)
