@@ -249,7 +249,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53827798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
   m_Name: 
@@ -1998,8 +1998,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3154,6 +3154,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 397311239, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 397311240, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: m_Range
+      value: 16.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 397311240, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: m_Intensity
+      value: 12.7
+      objectReference: {fileID: 0}
     - target: {fileID: 306405837387902276, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
       propertyPath: m_Layer
       value: 3
