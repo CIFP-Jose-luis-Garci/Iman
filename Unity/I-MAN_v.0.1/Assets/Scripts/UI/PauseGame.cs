@@ -43,7 +43,7 @@ public class PauseGame : MonoBehaviour
 
     public void Pause()
     {
-        Time.timeScale = 0.2f;
+        Time.timeScale = 0f;
         pauseMenuScreen.SetActive(true);
     }
     public void Resume()

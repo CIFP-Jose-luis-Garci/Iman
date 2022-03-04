@@ -1483,7 +1483,6 @@ GameObject:
   - component: {fileID: 1157988590}
   - component: {fileID: 1157988589}
   - component: {fileID: 1157988592}
-  - component: {fileID: 1157988593}
   - component: {fileID: 1157988594}
   m_Layer: 5
   m_Name: BtnJugar
@@ -1563,7 +1562,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1620,18 +1619,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 1627432654}
   spriteNew: {fileID: 21300000, guid: 5e082c775b8417d41aea87c35515f146, type: 3}
---- !u!114 &1157988593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1157988587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de98741e66bbb4f4c9eaaa3b8882db52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1157988594
 MonoBehaviour:
   m_ObjectHideFlags: 0
