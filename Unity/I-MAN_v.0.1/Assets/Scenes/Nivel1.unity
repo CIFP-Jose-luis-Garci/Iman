@@ -302,26 +302,31 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
---- !u!1 &179867609 stripped
+--- !u!95 &255025612 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4746138633840037481, guid: 7b4ebf242b0c7d6459c28f0ff11863ba, type: 3}
+  m_PrefabInstance: {fileID: 4746138633692016549}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &261283208 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 7436612602190935931, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+  m_CorrespondingSourceObject: {fileID: 306405837387902276, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
   m_PrefabInstance: {fileID: 2353434834203527563}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &179867611
+--- !u!82 &261283209
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 179867609}
+  m_GameObject: {fileID: 261283208}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1a5d110049e0a804c8bb6cc7fabe383e, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.5
+  OutputAudioMixerGroup: {fileID: -1180014494442453618, guid: cca28a89bd8d63c4eb511c06e6fca8c7, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -403,11 +408,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &255025612 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 4746138633840037481, guid: 7b4ebf242b0c7d6459c28f0ff11863ba, type: 3}
-  m_PrefabInstance: {fileID: 4746138633692016549}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &276937527
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,26 +3417,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 397311239, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 397311240, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_Range
-      value: 16.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 397311240, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_Intensity
-      value: 12.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 306405837387902276, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 306405837387902276, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 2382500362532535152, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3481,22 +3461,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5575253039078050743, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.007
-      objectReference: {fileID: 0}
     - target: {fileID: 7436612602190935931, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
       propertyPath: m_Name
       value: Personaje
       objectReference: {fileID: 0}
-    - target: {fileID: 7436612602190935931, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7436612602190935931, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
+    - target: {fileID: 9176645075044991084, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
+      propertyPath: saltos
+      value: 
+      objectReference: {fileID: 8300000, guid: 42191901becfe6b4bb6f2d5067658d6a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3a0bbc3554d50d44b62ac356aa655c9, type: 3}
 --- !u!1001 &3351191237210248318
@@ -3566,6 +3538,10 @@ PrefabInstance:
     - target: {fileID: 3781689338468651492, guid: 8d3791b774443bb47b5ba744618c246d, type: 3}
       propertyPath: m_Name
       value: AudioPuerta
+      objectReference: {fileID: 0}
+    - target: {fileID: 3781689338468651493, guid: 8d3791b774443bb47b5ba744618c246d, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3781689338468651494, guid: 8d3791b774443bb47b5ba744618c246d, type: 3}
       propertyPath: m_RootOrder

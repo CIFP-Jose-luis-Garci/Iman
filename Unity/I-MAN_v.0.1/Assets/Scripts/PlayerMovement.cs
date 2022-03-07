@@ -19,12 +19,18 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     //para ladder...
 
+    AudioSource imanAudio;
+    public AudioClip[] saltos;
 
     private bool isLadder;
     private bool isClimbing;
 
     FallingPlatforms fallingPlatforms;
 
+    private void Start()
+    {
+        imanAudio = GetComponent<AudioSource>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -60,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed && isGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            imanAudio.PlayOneShot(saltos[Random.Range(0, saltos.Length)]);
         }
         if (context.canceled && rb.velocity.y > 0)
         {
